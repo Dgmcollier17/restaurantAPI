@@ -7,7 +7,6 @@ async function fetchAPI() {
   try {
     const response = await fetch(URL);
     resultsArray = await response.json();
-    console.log(resultsArray.business[0]);
     createDOMNodes();
   } catch (error) {
     // Catch Error here
@@ -16,7 +15,6 @@ async function fetchAPI() {
 fetchAPI();
 
 function createDOMNodes() {
-  console.log(resultsArray.business);
   resultsArray.business.forEach((result) => {
     const card = document.createElement("div");
     card.classList.add("card");
