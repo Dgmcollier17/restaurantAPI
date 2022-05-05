@@ -1,0 +1,10 @@
+API is properly called
+Cards are created dynamically
+All 9 restaurants are displayed with at least the title shown on the card
+All restaurants cards must show their name and image
+extra credit for a clean format
+
+    cardBody.append(cardTitle, cardText);
+    card.append(cardBody);
+    imagesContainer.appendChild(card);
+    imagesContainer-card-cardbody&image-cardTitle&CardText
